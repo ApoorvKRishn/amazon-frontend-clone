@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deals with PCs</title>
+    <style>
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0046be;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-list {
+            margin: 20px 0;
+        }
+
+        .product {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .product img {
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .product span.price {
+            font-weight: bold;
+            color: #333;
+            margin: 5px 0;
+            display: block;
+        }
+
+        form button {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #e08900;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ff9900;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deals with PCs</h1>
+    </header>
+    <section>
+        <p>Discover the best deals on PCs and accessories, all at unbeatable prices.</p>
+        <div class="product-list">
+
+            <div class="product">
+                <img src="3kcgKLkfPRbskpsYzW239d.jpg" width="200" alt="PC 1">
+                <p>PC 1 - High-performance desktop with a sleek design.</p>
+                <span class="price">$499.99</span>
+                <form action="cart.php" method="POST">
+    <input type="hidden" name="item_name" value="PC 1 - High-performance desktop with a sleek design.">
+    <input type="hidden" name="item_price" value="499.99">
+    <button type="submit" name="add_to_cart">Add to Cart</button>
+</form>            </div>
+            <hr>
+
+            <div class="product">
+                <img src="Top Selling Gaming PC in India-1712136176989.jpg" width="200" alt="PC 2">
+                <p>PC 2 - Lightweight and powerful laptop for everyday use.</p>
+                <span class="price">$599.99</span>
+              <form action="cart.php" method="POST">
+    <input type="hidden" name="item_name" value="PC 2 - Lightweight and powerful laptop for everyday use.">
+    <input type="hidden" name="item_price" value="599.99">
+    <button type="submit" name="add_to_cart">Add to Cart</button>
+</form>
+            </div>
+               </section>
+    <footer>
+        <p>Back to <a href="index.html">home</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones</title>
+    <link rel="stylesheet" href="headphones.css">
+</head>
+
+<body>
+    <header>
+        <h1>Headphones</h1>
+    </header>
+    <section>
+        <p>Shop the latest headphones and audio accessories at affordable prices.</p>
+        <div class="product-list">
+
+            <div class="product">
+                <img src="51EXj4BRQaL.jpg" width="200" alt="Headphone 1">
+                <p>Wireless Over-Ear Headphones</p>
+                <span class="price">$50</span>
+                <form action="cart.php" method="POST">
+                    <input type="hidden" name="item_name" value="Wireless Over-Ear Headphones">
+                    <input type="hidden" name="item_price" value="50">
+                    <button type="submit" name="add_to_cart">Add to Cart</button>
+                </form>
+            </div>
+            <hr>
+
+            <div class="product">
+                <img src="Airpods_PDP_Image_Position-4__WWEN-700x700.jpg" width="200" alt="Headphone 2">
+                <p>AirPods with Charging Case</p>
+                <span class="price">$120</span>
+                <form action="cart.php" method="POST">
+                    <input type="hidden" name="item_name" value="AirPods with Charging Case">
+                    <input type="hidden" name="item_price" value="120">
+                    <button type="submit" name="add_to_cart">Add to Cart</button>
+                </form>
+            </div>
+
+    </section>
+    <footer>
+        <p>Back to <a href="index.html">home</a></p>
+    </footer>
+</body>
+
+</html>

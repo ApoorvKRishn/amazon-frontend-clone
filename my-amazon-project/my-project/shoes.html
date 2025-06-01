@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <header>
+        <h1>Shoes</h1>
+    </header>
+    <section>
+        <p>Find the best shoes for all occasions at unbeatable prices.</p>
+        <div class="product-list">
+
+            <div class="product">
+                <img src="images.jpg" width="200" alt="Shoe 1">
+                <p>Sneakers - Perfect for casual wear.</p>
+                <span class="price">$20</span>
+                 <form action="cart.php" method="POST">
+    <input type="hidden" name="item_name" value="Sneakers - Perfect for casual wear.">
+    <input type="hidden" name="item_price" value="20">
+    <button type="submit" name="add_to_cart">Add to Cart</button>
+</form>          
+            </div>
+            <hr>
+
+            <div class="product">
+                <img src="5f90bc0f-c248-4bff-8a88-54128a77c4a61715927218769HRXbyHrithikRoshanUnisexTexturedSneakers1.jpg" width="200" alt="Shoe 2">
+                <p>Stylish Shoes - Durable and trendy.</p>
+                <span class="price">$25</span>
+                <form action="cart.php" method="POST">
+    <input type="hidden" name="item_name" value="Stylish Shoes - Durable and trendy.">
+    <input type="hidden" name="item_price" value="25">
+    <button type="submit" name="add_to_cart">Add to Cart</button>
+</form>          
+            </div>
+           
+    
+    </section>
+    <footer>
+        <p>Back to <a href="index.html">home</a></p>
+    </footer>
+</body>
+</html>
